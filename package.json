@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Projet démo pour l'apprentissage de Git",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "watch": "nodemon src/app.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrp777/demo.git"
+  },
+  "author": "Alexandre Leroux (alex@sherpa.one)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrp777/demo/issues"
+  },
+  "homepage": "https://github.com/shrp777/demo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
