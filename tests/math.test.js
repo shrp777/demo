@@ -9,6 +9,6 @@ describe("Math", () => {
     expect(add(1, 1)).toEqual(2);
   });
   test("multiply(2,5) should equal 10", () => {
-    expect(add(2, 5)).toEqual(10);
+    expect(multiply(2, 5)).toEqual(10);
   });
 });
