@@ -26,4 +26,7 @@ describe("Math", () => {
   test("divide(6,3) should equal 2", () => {
     expect(divide(6, 3)).toEqual(2);
   });
+  test("divide(6,0) should return an error", () => {
+    expect(divide(6, 0)).toBeInstanceOf(Error);
+  });
 });
